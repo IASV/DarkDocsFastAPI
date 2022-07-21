@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Plantilla",
-  "description": "Plantilla para extensiones",
+  "name": "Dark Docs",
+  "description": "Dark theme for docs page in FastAPI",
   "version": "1",
 
   "icons": {

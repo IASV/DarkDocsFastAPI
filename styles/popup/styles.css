@@ -1,12 +1,11 @@
+/* --- configuration section --- */
 html {
     color: rgb(255, 255, 255);
     height: 300px;
-    width: 200px;
-    background: white;
+    width: 200px;    
     overflow: hidden;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,23 +18,63 @@ body {
     justify-content: center;    
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    padding: 5px;
+    box-sizing: border-box;    
 }
 
 .contain {    
-    height: 98%;
+    background: #343a40;
+    color: white;
+    height: 100%;
     width: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;        
+    transition-duration: 0.5s;
+}
+
+/* --- edict section --- */
+
+.active {
+    background-color: white;
+    color: #343a40;
 }
 
 .section {
-    background-color: gray;
     display: flex;
-    justify-content: center;    
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
+    flex-direction: column;
+    justify-content: center;        
+    align-items: center;    
 }
+
+.toggle.ios {        
+    border-radius: 50px;        
+    border-color: #343a40;    
+    box-shadow: 1px 1px 5px black;
+}
+
+.toggle.ios.off {        
+    border-radius: 50px;        
+    border-color: white;    
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+.toggle-on.btn {
+    padding-right: 4.5rem;    
+}
+
+.toggle-off.btn {
+    padding-left: 3.5rem;    
+}
+
+.toggle.ios .toggle-handle { 
+    border-radius: 20rem;     
+    padding: 15px;
+    background-color:white;
+    margin-right: 32px;
+}
+
+.toggle.ios.off .toggle-handle {
+    background-color:#343a40;    
+    margin-left: 64px;
+}
+

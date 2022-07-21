@@ -1,2 +1,2 @@
-# Plantilla para extensiones
-Plantilla para realizar extensiones
+# Dark Docs
+Dark theme for docs page in FastAPI
