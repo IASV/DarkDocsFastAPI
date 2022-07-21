@@ -1,0 +1,41 @@
+html {
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 200px;
+    background: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: inherit;
+    width: inherit;    
+    text-align: center;
+    justify-content: center;    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.contain {    
+    height: 98%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    background-color: gray;
+    display: flex;
+    justify-content: center;    
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
+}

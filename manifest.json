@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Plantilla",
+  "description": "Plantilla para extensiones",
+  "version": "1",
+
+  "icons": {
+    "32": "images/icon_32.png",
+    "128": "images/icon_128.png"
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "images/icon_32.png",
+    "default_popup": "popup/popup.html"
+  }
+}
