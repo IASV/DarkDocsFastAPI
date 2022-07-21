@@ -34,9 +34,23 @@ body {
 
 /* --- edict section --- */
 
+.imgMode {
+    background: url(/images/whiteIcon.png);
+    padding: 40px;    
+    background-repeat: no-repeat;
+    background-size: 80px;
+}
+
 .active {
     background-color: white;
     color: #343a40;
+}
+
+.active .imgMode {
+    background: url(/images/darkIcon.png);
+    padding: 40px;    
+    background-repeat: no-repeat;
+    background-size: 80px;
 }
 
 .section {
