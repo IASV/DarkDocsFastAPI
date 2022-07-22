@@ -9,7 +9,11 @@
     "32": "images/icon_32.png",
     "128": "images/icon_128.png"
   },
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "*://127.0.0.1:3000/*"
+  ],
   "browser_action": {
     "default_icon": "images/icon_32.png",
     "default_popup": "popup/popup.html"
