@@ -496,3 +496,7 @@ html {
 .swagger-ui .errors-wrapper {
   background-color: rgb(100, 30, 22);
 }
+
+.swagger-ui svg:not(:root) {
+  fill: white;
+}
