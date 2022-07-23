@@ -11827,6 +11827,9 @@ html {
 }
 .swagger-ui .copy-to-clipboard {
   display: none;
+}
+.swagger-ui .parameter__name.required::after {
+  color: rgb(255, 227, 0);
 }`
 
 if (state == 'active') {
