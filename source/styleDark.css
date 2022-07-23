@@ -99,9 +99,13 @@ html {
 }
 
 .swagger-ui .opblock.opblock-get .opblock-summary {
-  background: #154360;
-  border-color: #154360;
+  background: transparent;
+  border: 3px solid #154360;
   border-radius: 5px;
+}
+
+.swagger-ui .opblock.opblock-get .opblock-summary button {
+  border: none;
 }
 
 .swagger-ui .opblock.opblock-get .opblock-body {
@@ -126,9 +130,13 @@ html {
 }
 
 .swagger-ui .opblock.opblock-post .opblock-summary {
-  background: #0B5345;
-  border-color: #0B5345;
+  background: transparent;
+  border: 3px solid #0B5345;
   border-radius: 5px;
+}
+
+.swagger-ui .opblock.opblock-post .opblock-summary button {
+  border: none;
 }
 
 .swagger-ui .opblock.opblock-post .opblock-body {
@@ -162,9 +170,13 @@ html {
 }
 
 .swagger-ui .opblock.opblock-put .opblock-summary {
-  background: #784212;
-  border-color: #784212;
+  background: transparent;
+  border: 3px solid #784212;
   border-radius: 5px;
+}
+
+.swagger-ui .opblock.opblock-put .opblock-summary button {
+  border: none;
 }
 
 .swagger-ui .opblock.opblock-put .opblock-body {
@@ -189,9 +201,13 @@ html {
 }
 
 .swagger-ui .opblock.opblock-delete .opblock-summary {
-  background: #641E16;
-  border-color: #641E16;
+  background: transparent;
+  border: 3px solid #641E16;
   border-radius: 5px;
+}
+
+.swagger-ui .opblock.opblock-delete .opblock-summary button {
+  border: none;
 }
 
 .swagger-ui .opblock.opblock-delete .opblock-body {
@@ -460,4 +476,23 @@ html {
 
 .swagger-ui .download-contents {
   display: none;
+}
+
+.swagger-ui .auth-container .errors {
+  color: white;
+  background: #002734;
+  border: 3px solid #005873;
+  border-radius: 5px;
+}
+
+.swagger-ui .errors-wrapper hgroup h4 {
+  color: white;
+}
+
+.swagger-ui .errors-wrapper .errors h4 {
+  color: white;
+}
+
+.swagger-ui .errors-wrapper {
+  background-color: rgb(100, 30, 22);
 }
