@@ -11805,13 +11805,15 @@ html {
   border-radius: 5px;
   box-shadow: 1px 1px 5px #000000c4;
   margin: 5px auto;
+  outline: none;
 }
 
-.swagger-ui .opblock-body select {
+.swagger-ui .opblock-body select, .swagger-ui select{
   color: white;
   background-color: #002734;
   border-color: #002734;
   box-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
+  outline: none;
 }
 
 .swagger-ui .response-control-media-type {
@@ -11830,6 +11832,81 @@ html {
 }
 .swagger-ui .parameter__name.required::after {
   color: rgb(255, 227, 0);
+}
+.swagger-ui .scheme-container {
+  background: transparent;
+  box-shadow: none;
+}
+.swagger-ui .btn.authorize {
+  background-color: transparent;
+  color: rgb(73, 204, 144);
+  display: inline;
+  line-height: 1;
+  border-color: rgb(73, 204, 144);
+}
+
+.swagger-ui .dialog-ux .modal-ux {
+  background: #002e3c;    
+  border: 3px solid #005873;
+  border-radius: 5px;  
+}
+
+.swagger-ui .dialog-ux .modal-ux-header {
+  border: none;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+  color: white;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content p {
+  color: white;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content h4 {
+  color: white;
+}
+
+.swagger-ui label {
+  color: white;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header .close-modal {
+  fill: #005873;
+}
+
+::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+  display: none;
+} 
+
+::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #005873;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 39, 52);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+.swagger-ui .download-contents {
+  display: none;
 }`
 
 if (state == 'active') {
