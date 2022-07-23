@@ -11824,6 +11824,9 @@ html {
   background-color: #005873;
   border-color: #005873;
   color: #fff;
+}
+.swagger-ui .copy-to-clipboard {
+  display: none;
 }`
 
 if (state == 'active') {
