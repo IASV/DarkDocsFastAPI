@@ -500,3 +500,7 @@ html {
 .swagger-ui svg:not(:root) {
   fill: white;
 }
+
+.swagger-ui .parameter__name {
+  color: white;
+}
